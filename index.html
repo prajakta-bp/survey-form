@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> </title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">Thank you for taking time to help us improve the platform</p>
+    </header>
+    <div>
+    <form id="survey-form">
+      <fieldset>
+     <label id="name-label">Name
+       <input id="name" type="text" placeholder="Enter your name" required/>
+     </label>
+     <label id="email-label">Email
+       <input id="email" type="email" placeholder="Enter your email" required/>
+     </label>
+     <label id="number-label">Age
+       <input id="number" type="number" placeholder="Age" min="10" max="99"/>
+     </label>
+      <label>Which option best describes your current role    <select id="dropdown">
+          <option>select current role</option>
+          <option>student</option>
+          <option>full time job</option>
+          <option>full time learner</option>
+          <option>prefer not to say</option>
+          <option>other</option>
+        </select>
+      </label>
+      </fieldset>
+      <fieldset>
+      <legend>Would you recommend free code camp to a friend?</legend>
+        <label for="definitely"><input id="definitely" type="radio" name="recommend" value="definitely"/> Definitely</label>
+        <label for="maybe"><input id="maybe" type="radio" name="recommend" value="maybe"/> Maybe</label>
+        <label for="notsure"><input id="notsure" type="radio" name="recommend" value="notsure"/> Not Sure</label>
+      </label>
+      <label>What is your Favourite feature of freeCodeCamp? <select id="dropdown">
+          <option>select an option</option>
+          <option>Challenges</option>
+          <option>Project</option>
+          <option>Community</option>
+          <option>open source</option>
+          <option>other</option>
+        </select>
+      
+      </fieldset>
+      <fieldset>
+       <legend>What would you like to see improved? (Check all that apply)</legend>
+        <label for="Frontendproject"><input id="Frontendproject" type="checkbox" name="like" value="Frontendproject"/> Front-end Project</label>
+         <label for="backendproject"><input id="Backendproject" type="checkbox" name="like" value="Backendproject"/> Back-end Project</label>
+          <label for="Datavisualization"><input id="Datavisualization" type="checkbox" name="like" value="Datavisualization"/> Data visualization</label>
+      
+      </fieldset>
+      <fieldset>
+      <label>Any comment or Suggestion?
+        <textarea></textarea>
+      </label>
+      </fieldset>
+      <fieldset>
+      <input id="submit" type="submit" value="Submit" rows="6" cols="40"/>
+      </fieldset>
+
+    </form>
+    </div>
+  </body>
+</html>

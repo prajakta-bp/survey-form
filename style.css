@@ -1,0 +1,20 @@
+fieldset{
+    border:none;
+  }
+  
+  
+  form {
+   
+    line-height: 30px;
+    height: 80%;
+    overflow: auto;
+  
+  }
+  label{
+    display:block;
+  }
+  textarea{
+    display:block;
+    
+  }
+  
